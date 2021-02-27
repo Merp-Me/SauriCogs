@@ -1,6 +1,6 @@
 import asyncio
 import random
-
+from discord import Embed
 from discord.utils import get
 
 from redbot.core import Config, checks, bank, commands
