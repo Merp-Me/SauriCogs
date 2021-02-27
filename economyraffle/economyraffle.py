@@ -127,5 +127,5 @@ class EconomyRaffle(commands.Cog):
                 "Uh oh. Looks like your Admins haven't setup this yet."
             )
         await bank.deposit_credits(winner, amount)
-        embed = discord.Embed(title="Economy Raffle!", description=msg, color=0xFFCD69)
+        embed = Embed(title="Economy Raffle!", description=msg, color=0xFFCD69)
         await ctx.send(embed=embed)
